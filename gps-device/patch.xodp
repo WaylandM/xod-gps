@@ -1,0 +1,25 @@
+{
+  "description": "Create a gps-device.",
+  "nodes": [
+    {
+      "id": "ryJ8L_aM9",
+      "position": {
+        "units": "slots",
+        "x": -9,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A GPS device.",
+      "id": "SyJgEtazc",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": -9,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}

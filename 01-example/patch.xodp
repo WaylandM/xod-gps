@@ -1,0 +1,339 @@
+{
+  "links": [
+    {
+      "id": "BkXKMGCGq",
+      "input": {
+        "nodeId": "HJaOzM0z5",
+        "pinKey": "BJzW51Afq"
+      },
+      "output": {
+        "nodeId": "SyZYfMRMc",
+        "pinKey": "SyJgEtazc"
+      }
+    },
+    {
+      "id": "rkI0fMCGc",
+      "input": {
+        "nodeId": "HJaOzM0z5",
+        "pinKey": "HJ1N5yCGc"
+      },
+      "output": {
+        "nodeId": "rk_YzGRMc",
+        "pinKey": "Sk450OL-X"
+      }
+    },
+    {
+      "id": "Syy-QfAM5",
+      "input": {
+        "nodeId": "SyAlXGAfc",
+        "pinKey": "r1WDGoWCM9"
+      },
+      "output": {
+        "nodeId": "HJaOzM0z5",
+        "pinKey": "rJPu9JRM5"
+      }
+    },
+    {
+      "id": "rJfb7zRfc",
+      "input": {
+        "nodeId": "SyAlXGAfc",
+        "pinKey": "HywfoWCzq"
+      },
+      "output": {
+        "nodeId": "SyZYfMRMc",
+        "pinKey": "SyJgEtazc"
+      }
+    },
+    {
+      "id": "r1RGQM0z9",
+      "input": {
+        "nodeId": "HkNMmzRz5",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SyAlXGAfc",
+        "pinKey": "HymSjb0Mc"
+      }
+    },
+    {
+      "id": "SkemQMAf5",
+      "input": {
+        "nodeId": "BylG7GRzq",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SyAlXGAfc",
+        "pinKey": "H1QNjZCf9"
+      }
+    },
+    {
+      "id": "Hke47fRMc",
+      "input": {
+        "nodeId": "rJ_7QzRzc",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "HJaOzM0z5",
+        "pinKey": "rJPu9JRM5"
+      }
+    },
+    {
+      "id": "B1KNQMAGq",
+      "input": {
+        "nodeId": "Sy4NmfAz5",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "SyAlXGAfc",
+        "pinKey": "H1SeAWRG5"
+      }
+    },
+    {
+      "id": "HyQSmfAMc",
+      "input": {
+        "nodeId": "rklJSXM0z9",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "Sy4NmfAz5",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "H18H7MAzc",
+      "input": {
+        "nodeId": "Sy1SmzCMq",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rJ_7QzRzc",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "SkDKSBCMc",
+      "input": {
+        "nodeId": "SJXYrB0Gq",
+        "pinKey": "Hy_D4G0JOX"
+      },
+      "output": {
+        "nodeId": "H1a8rSRf9",
+        "pinKey": "rJMWEH0fc"
+      }
+    },
+    {
+      "id": "B1ttSSRGc",
+      "input": {
+        "nodeId": "r13qg-HCz9",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SJXYrB0Gq",
+        "pinKey": "BkvDEzR1Om"
+      }
+    },
+    {
+      "id": "ryvqBrRz9",
+      "input": {
+        "nodeId": "H1a8rSRf9",
+        "pinKey": "rJlamrAG9"
+      },
+      "output": {
+        "nodeId": "SyZYfMRMc",
+        "pinKey": "SyJgEtazc"
+      }
+    },
+    {
+      "id": "HkUvYrCMq",
+      "input": {
+        "nodeId": "rkNvtH0Mc",
+        "pinKey": "HyxEgdH0f5"
+      },
+      "output": {
+        "nodeId": "SyZYfMRMc",
+        "pinKey": "SyJgEtazc"
+      }
+    },
+    {
+      "id": "BkAwKS0z5",
+      "input": {
+        "nodeId": "SyjDFB0Mc",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "rkNvtH0Mc",
+        "pinKey": "rkGEluSRz5"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HJaOzM0z5",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "@/encode"
+    },
+    {
+      "id": "SyZYfMRMc",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "@/gps-device"
+    },
+    {
+      "boundLiterals": {
+        "BytfJKIWX": "9600"
+      },
+      "id": "rk_YzGRMc",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/uart/uart-1"
+    },
+    {
+      "id": "SyAlXGAfc",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "@/get-location"
+    },
+    {
+      "id": "BylG7GRzq",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HkNMmzRz5",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rJ_7QzRzc",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "Sy4NmfAz5",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "Sy1SmzCMq",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rklJSXM0z9",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "r13qg-HCz9",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 7
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "H1a8rSRf9",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 1
+      },
+      "type": "@/get-datetime"
+    },
+    {
+      "id": "SJXYrB0Gq",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 2
+      },
+      "type": "xod/datetime/format-timestamp"
+    },
+    {
+      "id": "rkNvtH0Mc",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 1
+      },
+      "type": "@/get-satellite-count"
+    },
+    {
+      "id": "SyjDFB0Mc",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}
