@@ -1,2 +1,61 @@
 {
+  "description": "Read altitude in miles.",
+  "nodes": [
+    {
+      "id": "HkfW0vJ79",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A gps-device.",
+      "id": "rkxGZRwkQ9",
+      "label": "GPS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-gps-device"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "Continuously"
+      },
+      "description": "Update.",
+      "id": "rkbGbCwJQc",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Altitude in miles.",
+      "id": "SyGfZ0Dk7c",
+      "label": "miles",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse on successful read. Will only pulse if altitude valid.",
+      "id": "SJ7z-RPkmq",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

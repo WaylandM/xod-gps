@@ -1,4 +1,5 @@
 {
+  "description": "Read time.",
   "nodes": [
     {
       "id": "rkSGMH0G5",
@@ -46,6 +47,7 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
+      "description": "Hour (0-23).",
       "id": "ryQSzzHRM9",
       "label": "Hour",
       "position": {
@@ -56,6 +58,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Minute (0-59).",
       "id": "rkErGMB0M5",
       "label": "Min",
       "position": {
@@ -66,6 +69,7 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
+      "description": "Second (0-59).",
       "id": "rkSBGfrRGq",
       "label": "Sec",
       "position": {

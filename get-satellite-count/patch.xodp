@@ -1,4 +1,5 @@
 {
+  "description": "Get number of satellites currently being used.",
   "nodes": [
     {
       "id": "r1EldHCzq",

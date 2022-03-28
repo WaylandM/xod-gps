@@ -9,8 +9,8 @@ node {
 
         auto gps = getValue<input_DEV>(ctx);
 
-        if (gps->altitude.isValid()){
-            emitValue<output_feet>(ctx, gps->altitude.feet());
+        if (gps->speed.isValid()){
+            emitValue<output_mps>(ctx, gps->speed.mps());
             emitValue<output_Done>(ctx, 1);
         }
     }

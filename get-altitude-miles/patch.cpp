@@ -10,7 +10,7 @@ node {
         auto gps = getValue<input_DEV>(ctx);
 
         if (gps->altitude.isValid()){
-            emitValue<output_feet>(ctx, gps->altitude.feet());
+            emitValue<output_Alt>(ctx, gps->altitude.miles());
             emitValue<output_Done>(ctx, 1);
         }
     }

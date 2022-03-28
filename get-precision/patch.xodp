@@ -1,8 +1,8 @@
 {
-  "description": "Read speed in kilometres per hour.",
+  "description": "Read horizontal dilution of precision (HDOP). HDOP provides a\nmeasure of accuracy in 2-D position (i.e. Latitude and Longitude). HDOP values are typically between 1 and 2. ",
   "nodes": [
     {
-      "id": "SJHgx91mc",
+      "id": "B14aU5kX9",
       "position": {
         "units": "slots",
         "x": 0,
@@ -12,7 +12,7 @@
     },
     {
       "description": "A gps-device.",
-      "id": "SygSlxcJ7q",
+      "id": "HJlEp8qk79",
       "label": "GPS",
       "position": {
         "units": "slots",
@@ -26,7 +26,7 @@
         "__out__": "Continuously"
       },
       "description": "Update.",
-      "id": "HyZHlg5kQq",
+      "id": "HJZ468ckX9",
       "label": "UPD",
       "position": {
         "units": "slots",
@@ -36,9 +36,9 @@
       "type": "xod/patch-nodes/input-pulse"
     },
     {
-      "description": "Speed in kilometres per hour.",
-      "id": "rkGSeeqyXq",
-      "label": "kmph",
+      "description": "Horizontal dilution of precision. ",
+      "id": "HyGEpI917c",
+      "label": "HDOP",
       "position": {
         "units": "slots",
         "x": 0,
@@ -47,8 +47,8 @@
       "type": "xod/patch-nodes/output-number"
     },
     {
-      "description": "Pulse on successful read. Will only pulse if speed valid.",
-      "id": "S1QSeg9JQc",
+      "description": "Pulse on successful read. Will only pulse if HDOP valid.",
+      "id": "SkXNTI9kXc",
       "label": "Done",
       "position": {
         "units": "slots",
