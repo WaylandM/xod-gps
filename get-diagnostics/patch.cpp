@@ -7,7 +7,7 @@ node {
         if (!isInputDirty<input_UPD>(ctx))
             return;
 
-        auto gps = getValue<input_DEV>(ctx);
+        auto gps = getValue<input_GPS>(ctx);
 
         emitValue<output_nChar>(ctx, gps->charsProcessed());
         emitValue<output_nSent>(ctx, gps->sentencesWithFix());

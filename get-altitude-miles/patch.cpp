@@ -7,7 +7,7 @@ node {
         if (!isInputDirty<input_UPD>(ctx))
             return;
 
-        auto gps = getValue<input_DEV>(ctx);
+        auto gps = getValue<input_GPS>(ctx);
 
         if (gps->altitude.isValid()){
             emitValue<output_Alt>(ctx, gps->altitude.miles());

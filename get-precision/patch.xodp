@@ -1,5 +1,5 @@
 {
-  "description": "Read horizontal dilution of precision (HDOP). HDOP provides a\nmeasure of accuracy in 2-D position (i.e. Latitude and Longitude). HDOP values are typically between 1 and 2. ",
+  "description": "Read horizontal dilution of precision (HDOP). HDOP provides a\nmeasure of accuracy in 2-D position (i.e. Latitude and Longitude). ",
   "nodes": [
     {
       "id": "B14aU5kX9",

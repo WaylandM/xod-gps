@@ -1,0 +1,36 @@
+{
+  "description": "Convert course (decimal degrees) to cardinal direction.",
+  "nodes": [
+    {
+      "id": "ByJp-rlrc",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Course in decimal degrees.",
+      "id": "S1xkpZBeB5",
+      "label": "Course",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Cardinal direction.",
+      "id": "ryJ4fSlrq",
+      "label": "Card",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-string"
+    }
+  ]
+}

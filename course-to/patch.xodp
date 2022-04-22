@@ -1,2 +1,69 @@
 {
+  "description": "Calculates course in degrees (North=0, West=270) from position 1 to position 2, both specified as signed decimal-degrees latitude and longitude. Because Earth is no exact sphere, calculated course may be off by a tiny fraction.",
+  "nodes": [
+    {
+      "id": "Skwurkgrc",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Latititude (decimal degrees) of position one.",
+      "id": "r1ktBkgr9",
+      "label": "Lat1",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Longitude (decimal degrees) of position one. ",
+      "id": "rkEtHJxHq",
+      "label": "Long1",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Latititude (decimal degrees) of position two.",
+      "id": "rJhNYrylS5",
+      "label": "Lat2",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Longitude (decimal degrees) of position two.",
+      "id": "SyBFSJlB9",
+      "label": "Long2",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Course (decimal degrees).",
+      "id": "BkJA1lxB5",
+      "label": "Deg",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
 }

@@ -1,2 +1,69 @@
 {
+  "description": "Calculates distance in metres between two positions, both specified as signed decimal-degrees latitude and longitude. Uses great-circle distance computation for hypothetical sphere of radius 6372795 meters. Because Earth is no exact sphere, rounding errors may be up to 0.5%.",
+  "nodes": [
+    {
+      "id": "Bkry-GeH9",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Latititude (decimal degrees) of position one.",
+      "id": "HkxBkbMlrq",
+      "label": "Lat1",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Longitude (decimal degrees) of position one. ",
+      "id": "rybr1bGlSq",
+      "label": "Long1",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Latititude (decimal degrees) of position two.",
+      "id": "BkzHkZGgrc",
+      "label": "Lat2",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Longitude (decimal degrees) of position two.",
+      "id": "S1XSy-fgr5",
+      "label": "Long2",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Course (decimal degrees).",
+      "id": "SJNBk-Merc",
+      "label": "Dist",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
 }
