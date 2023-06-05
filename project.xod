@@ -2,5 +2,5 @@
   "description": "Arduino NMEA (National Marine Electronics Association) parsing library (wraps https://github.com/mikalhart/TinyGPSPlus). Provides nodes for extracting position, date, time, altitude, speed, and course from consumer GPS devices. Tested using  a NEO-6M. ",
   "license": "GNU Lesser General Public License v2.1",
   "name": "gps",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }

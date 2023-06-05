@@ -189,25 +189,14 @@
       }
     },
     {
-      "id": "r10awiSEq",
-      "input": {
-        "nodeId": "S1DaDsHN9",
-        "pinKey": "BkjI-COLb"
-      },
-      "output": {
-        "nodeId": "Bkhc5_SN9",
-        "pinKey": "rksccsp-W"
-      }
-    },
-    {
-      "id": "Syk0wjrVc",
+      "id": "HyEhsPBE2",
       "input": {
         "nodeId": "S1s_q_rN9",
         "pinKey": "BJK0yEglf"
       },
       "output": {
-        "nodeId": "S1DaDsHN9",
-        "pinKey": "ByAIWR_UZ"
+        "nodeId": "HJzy8c_r4c",
+        "pinKey": "H1SeAWRG5"
       }
     }
   ],
@@ -281,13 +270,13 @@
     {
       "boundLiterals": {
         "BJGhy4lgG": "D10",
-        "rJbTJVxxM": "\"gps_log.txt\""
+        "rJbTJVxxM": "\"gps_log.csv\""
       },
       "id": "S1s_q_rN9",
       "position": {
         "units": "slots",
-        "x": -4,
-        "y": 7
+        "x": -2,
+        "y": 6
       },
       "type": "xod/common-hardware/sd-log"
     },
@@ -370,15 +359,6 @@
         "y": 4
       },
       "type": "xod/core/format-number"
-    },
-    {
-      "id": "S1DaDsHN9",
-      "position": {
-        "units": "slots",
-        "x": -1,
-        "y": 6
-      },
-      "type": "xod/core/pulse-on-change"
     }
   ]
 }
