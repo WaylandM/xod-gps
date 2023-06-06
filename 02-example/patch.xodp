@@ -35,39 +35,6 @@
       }
     },
     {
-      "id": "Sy5i5uH49",
-      "input": {
-        "nodeId": "Bkhc5_SN9",
-        "pinKey": "Hkqu9oaWb"
-      },
-      "output": {
-        "nodeId": "H1i1LcOS49",
-        "pinKey": "BkvDEzR1Om"
-      }
-    },
-    {
-      "id": "H1rTqdHV5",
-      "input": {
-        "nodeId": "Bkhc5_SN9",
-        "pinKey": "BkeKcj6ZZ-$1"
-      },
-      "output": {
-        "nodeId": "Hy2k8curE9",
-        "pinKey": "rkGEluSRz5"
-      }
-    },
-    {
-      "id": "rJHgsOr45",
-      "input": {
-        "nodeId": "S1s_q_rN9",
-        "pinKey": "SJ1CkNggf"
-      },
-      "output": {
-        "nodeId": "Bkhc5_SN9",
-        "pinKey": "rksccsp-W"
-      }
-    },
-    {
       "id": "B1rVjdBV9",
       "input": {
         "nodeId": "Bk5XiOB4c",
@@ -167,28 +134,6 @@
       }
     },
     {
-      "id": "r1K_VYS45",
-      "input": {
-        "nodeId": "Bkhc5_SN9",
-        "pinKey": "BkeKcj6ZZ-$5"
-      },
-      "output": {
-        "nodeId": "S1qPNFSEq",
-        "pinKey": "r1H_oipZb"
-      }
-    },
-    {
-      "id": "SyouEtrV5",
-      "input": {
-        "nodeId": "Bkhc5_SN9",
-        "pinKey": "BkeKcj6ZZ-$3"
-      },
-      "output": {
-        "nodeId": "SJxSEtB4c",
-        "pinKey": "r1H_oipZb"
-      }
-    },
-    {
       "id": "HyEhsPBE2",
       "input": {
         "nodeId": "S1s_q_rN9",
@@ -197,6 +142,61 @@
       "output": {
         "nodeId": "HJzy8c_r4c",
         "pinKey": "H1SeAWRG5"
+      }
+    },
+    {
+      "id": "Byt9cIjU3",
+      "input": {
+        "nodeId": "B1qPcLj8n",
+        "pinKey": "HynENHNOz"
+      },
+      "output": {
+        "nodeId": "H1i1LcOS49",
+        "pinKey": "BkvDEzR1Om"
+      }
+    },
+    {
+      "id": "rJgscIsIh",
+      "input": {
+        "nodeId": "B1qPcLj8n",
+        "pinKey": "rJJHNrVuM"
+      },
+      "output": {
+        "nodeId": "Hy2k8curE9",
+        "pinKey": "rkGEluSRz5"
+      }
+    },
+    {
+      "id": "r1zoqLjUn",
+      "input": {
+        "nodeId": "B1qPcLj8n",
+        "pinKey": "rJJHNrVuM-$1"
+      },
+      "output": {
+        "nodeId": "SJxSEtB4c",
+        "pinKey": "r1H_oipZb"
+      }
+    },
+    {
+      "id": "SkNoqLsU3",
+      "input": {
+        "nodeId": "B1qPcLj8n",
+        "pinKey": "rJJHNrVuM-$2"
+      },
+      "output": {
+        "nodeId": "S1qPNFSEq",
+        "pinKey": "r1H_oipZb"
+      }
+    },
+    {
+      "id": "B16hc8jI3",
+      "input": {
+        "nodeId": "S1s_q_rN9",
+        "pinKey": "SJ1CkNggf"
+      },
+      "output": {
+        "nodeId": "B1qPcLj8n",
+        "pinKey": "HJrBNr4dG"
       }
     }
   ],
@@ -281,22 +281,6 @@
       "type": "xod/common-hardware/sd-log"
     },
     {
-      "arityLevel": 6,
-      "boundLiterals": {
-        "BkeKcj6ZZ": "\",\"",
-        "BkeKcj6ZZ-$1": "\"\"",
-        "BkeKcj6ZZ-$2": "\",\"",
-        "BkeKcj6ZZ-$4": "\",\""
-      },
-      "id": "Bkhc5_SN9",
-      "position": {
-        "units": "slots",
-        "x": -2,
-        "y": 5
-      },
-      "type": "xod/core/concat"
-    },
-    {
       "id": "Bk5XiOB4c",
       "label": "GPS",
       "position": {
@@ -343,7 +327,7 @@
       "id": "SJxSEtB4c",
       "position": {
         "units": "slots",
-        "x": 2,
+        "x": 1,
         "y": 4
       },
       "type": "xod/core/format-number"
@@ -359,6 +343,19 @@
         "y": 4
       },
       "type": "xod/core/format-number"
+    },
+    {
+      "arityLevel": 3,
+      "boundLiterals": {
+        "rJGQNB4df": "\",\""
+      },
+      "id": "B1qPcLj8n",
+      "position": {
+        "units": "slots",
+        "x": -3,
+        "y": 5
+      },
+      "type": "xod/core/join"
     }
   ]
 }
